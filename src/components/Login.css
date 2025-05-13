@@ -1,0 +1,78 @@
+.bg-teal {
+    background-color: #007f7f;
+  }
+  
+  .circle1,
+  .circle2 {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    opacity: 0.2;
+  }
+  
+  .circle1 {
+    width: 150px;
+    height: 150px;
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  /* .circle2 {
+    width: 100px;
+    height: 100px;
+    bottom: 60px;
+    left: 60px;
+  } */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+  
+  /* .container-fluid {
+    height: 100vh;
+    overflow: hidden;
+  } */
+
+  .container-fluid,
+.row {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-right {
+    display: none;
+  }
+}
+/* Style général de la page */
+.login-page {
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+
+.login-left {
+  background: rgba(255, 255, 255, 0.4); /* semi-transparent */
+  backdrop-filter: blur(5px);
+}
+
+.login-form {
+  /* width: ; */
+  max-width: 100%;
+  background-color: white;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+  .login-left {
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  
+  
